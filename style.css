@@ -1,0 +1,79 @@
+html {
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+#container {
+	background-image: url(space.jpg);
+	background-repeat: repeat-y;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-position: left bottom;
+	overflow: hidden;
+}
+#allies {
+	position: absolute;
+    width: 7%;
+    height: 92px;
+    top: 70%;
+    left: 45%;
+    background-image: url(reversefire.gif);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 33px;
+    background-position-y: 52px;
+}
+
+#enemy {
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    top: 100px;
+    background-image: url(reversefire.gif);
+    transform: scaleY(-1);
+    background-size: 25px;
+    background-position: 26px;
+    background-repeat: no-repeat;
+    background-position-y: 88px;
+}
+.template {
+	display: none;
+}
+.fire {
+	width: 25px;
+	position: absolute;
+	left: 32px;
+	top: 55px;
+	transform: scaleY(-1);
+}
+.fire_2 {
+	width: 25px;
+	position: absolute;
+	left: 26px;
+	top: 95px;
+
+}
+#lazer {
+	background-image: url(laser.png);
+	background-repeat: repeat-y;
+	position: absolute;
+    width: 11px;
+    height: 39px;
+    left: 39px;
+    top: -40px;
+}
+#score {
+    width: 100%;
+    position: absolute;
+    top: calc(0% - 25px);
+    font-size: 2.0em;
+    left: calc(100% - 120px);
+    /* top: 958px; */
+    /* z-index: 1; */
+    color: white;
+}
