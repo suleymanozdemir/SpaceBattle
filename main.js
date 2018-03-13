@@ -1,5 +1,5 @@
 $(function() {
-	/*var container = $('#container'),
+	var container = $('#container'),
 		allies = $('#allies'),
 		enemy = $('#enemy'),
 		fire = $('#lazer'),
